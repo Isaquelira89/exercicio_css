@@ -23,7 +23,7 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 16px 0;
 }
 header li a:hover{
 
@@ -47,9 +47,13 @@ header li a{
     
 }
 .container{
-    width: 1366px;
-    margin: 0 auto;
+    
+    
     border-radius: 10px 10px;
+    width: 90%; /* Use uma porcentagem para tornar o layout responsivo */
+    max-width: 1366px; /* Adicione um máximo para evitar que fique muito grande em telas grandes */
+    margin: 0 auto;
+    border-radius: 10px;
 
 }
 .articles{
@@ -57,6 +61,7 @@ header li a{
     flex-wrap: row;
     justify-content: space-between;
     margin: 10px;
+    width: 100%;
 }
 .articles article img{
     /* width: 180px; */
@@ -65,6 +70,9 @@ header li a{
 .articles article {
     width: 33%;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 20px;
+    justify-content: space-around;
     
 }
 article{
@@ -112,6 +120,7 @@ section h2{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-top: 10px;
+    width: 100%;
 }
 #economy{
     background: linear-gradient(25deg,white,rgba(137, 43, 226, 0.738));
@@ -120,6 +129,7 @@ section h2{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-top: 10px;
+    width: 100%;
 }
 #tecnology{
     background: linear-gradient(25deg,rgba(137, 43, 226, 0.738),white);
@@ -128,6 +138,8 @@ section h2{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-top: 10px;
+    width: 100%;
+    
 }
 #games{
     background: linear-gradient(25deg,white,rgba(137, 43, 226, 0.738));
@@ -136,13 +148,15 @@ section h2{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-top: 10px;
+    width: 100%;
 }
 .footer{
     width: 100%;
     height: 30px;
     margin: 0 0 0 0;
     border-radius: 10px 10px;
-    background-color: blueviolet
+    background-color: blueviolet;
+    width: 100%;
     
 }
 .footer p{
