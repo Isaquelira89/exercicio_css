@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+}
+body > header{
+    background-color: blueviolet;
+    padding: 16px 0;
+}
+body{
+    background-color: rgba(137, 43, 226, 0.245);
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header li a:hover{
+
+    letter-spacing: 1px;
+    
+}
+    
+
+header li{
+    
+    display: inline;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+header li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 16px 0;
+    
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+    border-radius: 10px 10px;
+
+}
+.articles{
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.articles article img{
+    /* width: 180px; */
+    width: 100%;
+}
+.articles article {
+    width: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+article{
+    padding: 16px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 32px;
+    color: blueviolet;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-family: 'Russo One', sans-serif;
+}
+.articles a {
+    background-color: blueviolet;
+    padding: 8px;
+    color: white;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.articles article a:hover{
+    background:linear-gradient(25deg, blueviolet, white);
+    padding: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    
+}
+#esportes{
+    background: linear-gradient(25deg,rgba(137, 43, 226, 0.738),white);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+}
+#economy{
+    background: linear-gradient(25deg,white,rgba(137, 43, 226, 0.738));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+}
+#tecnology{
+    background: linear-gradient(25deg,rgba(137, 43, 226, 0.738),white);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+}
+#games{
+    background: linear-gradient(25deg,white,rgba(137, 43, 226, 0.738));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+}
+.footer{
+    width: 100%;
+    height: 30px;
+    margin: 0 0 0 0;
+    border-radius: 10px 10px;
+    background-color: blueviolet
+    
+}
+.footer p{
+    text-align: center;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    
+}
+.footer a{
+    
+    text-decoration: none;
+    color: rgba(241, 239, 243, 0.354);
+}
+    
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#scrollToTopBtn img{
+    width: 30px;
+    height: 30px;
+  
+   
+}
