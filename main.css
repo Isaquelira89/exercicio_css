@@ -66,6 +66,8 @@ header li a{
 .articles article img{
     /* width: 180px; */
     width: 100%;
+    
+    
 }
 .articles article {
     width: 33%;
@@ -105,6 +107,11 @@ section h2{
     border-radius: 10px;
     margin-top: 5px;
 }
+.articles p{
+    height: auto
+    
+}
+
 .articles article a:hover{
     background:linear-gradient(25deg, blueviolet, white);
     padding: 8px;
@@ -149,7 +156,9 @@ section h2{
     border-top-right-radius: 10px;
     padding-top: 10px;
     width: 100%;
+
 }
+
 .footer{
     width: 100%;
     height: 30px;
